@@ -1,5 +1,6 @@
 package com.awesome.samplekit;
 
+import android.support.annotation.Keep;
 import android.util.Log;
 
 public class Api {
@@ -13,6 +14,7 @@ public class Api {
     public Api() {
     }
 
+    @Keep
     public void obfuscated() {
         Log.d("API", "Test obfuscated");
     }

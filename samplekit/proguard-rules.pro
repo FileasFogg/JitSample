@@ -18,7 +18,7 @@
 
 -keep class com.awesome.samplekit.Api
 -keep class com.awesome.samplekit.NewApi
--keepclassmembers class **$Api {
+-keepclassmembers class com.awesome.samplekit.Api {
     public static <fields>;
 }
 
