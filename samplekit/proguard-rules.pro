@@ -25,3 +25,6 @@
 -keep interface android.support.v7.internal.** { *; }
 
 -keep class com.awesome.samplekit.Api
+-keepclassmembers class **$Api {
+    public static <fields>;
+}

@@ -9,4 +9,15 @@ public class Api {
     public static void testPrint() {
         Log.d("API", "Test print");
     }
+
+    public Api() {
+    }
+
+    public void obfuscated() {
+        Log.d("API", "Test obfuscated");
+    }
+
+    public void nonobfuscated() {
+        Log.d("API", "Test nonobfuscated");
+    }
 }
