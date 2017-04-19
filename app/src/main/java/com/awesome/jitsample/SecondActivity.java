@@ -8,7 +8,11 @@ import android.util.Log;
 
 public class SecondActivity {
 
-    public static void innerMathod() {
+    public static final String SHOULD_BE_OBF = "should be obfuscated";
+
+    public static final String PUBLIC_VAR = "public var";
+
+    public static void innerMethod() {
         Log.d("Second activity", "inner method");
     }
 }
