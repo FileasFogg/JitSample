@@ -20,4 +20,9 @@ public class Api {
     public void nonobfuscated() {
         Log.d("API", "Test nonobfuscated");
     }
+
+    public enum Server {
+
+        Demo, Prod
+    }
 }
