@@ -14,11 +14,11 @@ public class Api {
     public Api() {
     }
 
-    @Keep
     public void obfuscated() {
         Log.d("API", "Test obfuscated");
     }
 
+    @Keep
     public void nonobfuscated() {
         Log.d("API", "Test nonobfuscated");
     }

@@ -18,11 +18,7 @@
 
 -keep class com.awesome.samplekit.Api
 -keep class com.awesome.samplekit.NewApi
--keepclassmembers class com.awesome.samplekit.Api {
-    public static <fields>;
-}
+-keepclassmembers class com.awesome.samplekit.Api {*;}
 
--keepclassmembers enum * {
-    public static **[] values();
-    public static ** valueOf(java.lang.String);
-}
+-dontshrink
+-dontoptimize
