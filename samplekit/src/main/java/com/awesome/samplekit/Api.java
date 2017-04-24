@@ -1,11 +1,9 @@
 package com.awesome.samplekit;
 
 import android.support.annotation.Keep;
-import android.support.annotation.RestrictTo;
 import android.util.Log;
 
-@RestrictTo(RestrictTo.Scope.LIBRARY)
-public class Api {
+public class Api implements IApi{
 
     public static final String SHOULD_BE_OBF = "should be obfuscated";
 
