@@ -5,7 +5,6 @@ import android.util.Log;
 /**
  * Created by Fileas on 19.04.17.
  */
-
 public class NewApi {
 
 
